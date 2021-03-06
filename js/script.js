@@ -77,6 +77,7 @@ async function createbtncountries(){
       })
 
 }
+createbtncountries()
 
 async function countryselectclick(event){
     if(datatype.loadingbar)
