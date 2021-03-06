@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Covid 19</title>
+</head>
+<body>
+    <div>
+        <h1>Covid-19</h1>
+    </div>
+
+    <div class="container">
+        <div class="statics">
+            
+            <div class="charts">
+                <canvas id="myChart" ></canvas>
+            </div>
+            <div class="info">
+            </div>
+
+            
+        </div>
+        <div class="loading">
+            <img src="./img/tenor.gif" alt="">
+        </div>
+
+        <div class="option">
+            <div class="type">
+                <button data-type="confirmed" class="btnprimary">Confirmed Cases</button>
+                <button data-type="deaths" data-type="" class="btnprimary">Number of Deaths</button>
+                <button data-type="recovered" class="btnprimary">Number of recovered</button>
+                <button data-type="critical" class="btnprimary">Number of critical condition</button>
+            </div>
+    
+            <div class="origin">
+                <button data-region="global" class="btnprimary">Global</button>
+                <button data-region="asia" class="btnprimary">Asia</button>
+                <button data-region="americas" class="btnprimary">America</button>
+                <button data-region="africa" class="btnprimary">Africa</button>
+                <button data-region="europe" class="btnprimary">Europe</button>
+            </div>
+        </div>
+        <div class="contries"></div>
+
+
+    </div>
+    
+
+
+    <script src="js/script.js"></script>
+    <script src="js/chart.min.js"></script>
+</body>
+</html>

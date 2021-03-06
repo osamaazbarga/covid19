@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    margin:0 auto;
+}
+
+.container{
+    width: 85vw;
+    margin: 0 auto;
+    background: aquamarine;
+    border-radius: 15px;
+}
+
+.btnprimary{
+    border: 1px solid black;
+    padding: 10px 30px;
+    background:rgba(251, 175, 175, 0.637);
+    border-radius: 15px;
+    margin: 10px 30px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contries button{
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(66, 62, 62);
+    padding: 5px 10px;
+    background: rgb(218, 175, 145);
+}
+#myChart{
+
+    display: block;
+    height: 200px;
+    width: 1792px;
+
+}
+
+.option{
+    margin-top: 200px;
+}
+
+.statics .info .boxes{
+    width: 50vw;
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 20px;
+    
+
+
+}
+.statics .info .boxes div{
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    padding-top: 20px;
+
+}
+
+.statics .info .boxes div span{
+    display: block;
+
+}
