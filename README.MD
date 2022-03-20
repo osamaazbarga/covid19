@@ -29,3 +29,9 @@ covid 19
 # countryselectclick(event=country) show the country corona information 
 # regionselectclick(event=region) show all the countries in region inside the chart
 
+### •	Development of a covid-19 site to revirew the data of corona in the world.
+### •	The project is developing using React, JavaScript, Bootstrap, MDB, HTML5 and CSS3 in frontend, and Node.js with NoSQL Mongo database.
+### •	Libraries: Axios, Dom-Router, yup, formic, multer, bcryptjs, express.js.
+### •	Add Deployment to Heroku cloud.
+
+
