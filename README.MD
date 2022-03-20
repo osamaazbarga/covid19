@@ -1,5 +1,12 @@
 covid 19
 
+### •	Development of a covid-19 site to revirew the data of corona in the world.
+### •	The project is developing using React, JavaScript, HTML5 and CSS3.
+### •	Libraries: Axios, charts.
+### •	Add Deployment to Netlify cloud.
+
+
+
 1. create html file
 # create conainer div
 # in container div i create a statics div that have chart and information about the countries
